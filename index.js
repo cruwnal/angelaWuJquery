@@ -50,3 +50,17 @@ function mouseEnter() {
 function mouseLeave() {
     $('h1').css('color','green');
 };
+
+
+
+
+$('button').on('click', function() {
+    
+    // if ($('h1').is(":visible")) {
+    //     $('h1').hide();
+    // } else {
+    //     $('h1').show();
+    // }
+
+    $('h1').toggle();
+});
